@@ -109,20 +109,13 @@
             // (5 way)     
 
             bindings = <
-&kp GRAVE  &kp Q           &kp W           &kp F        &kp P             &kp B                                   &kp J            &kp L              &kp U        &kp Y            &kp SEMI         &kp DEL
-&kp TAB    &mt LEFT_GUI A  &mt LEFT_ALT R  &mt LCTRL S  &mt LEFT_SHIFT T  &kp G                                   &kp M            &mt RIGHT_SHIFT N  &mt RCTRL E  &mt RIGHT_ALT I  &mt RIGHT_GUI O  &kp APOS
-&sk RALT   &kp Z           &kp X           &kp C        &kp D             &kp V        &none    &kp C_PLAY_PAUSE  &kp K            &kp H              &kp COMMA    &kp DOT          &kp FSLH         &kp BSLH
-                                           &kp LG(TAB)  &kp ESC           &lt 1 SPACE  &kp TAB  &kp ENTER         &lt 2 BACKSPACE  &kp DEL            &none
-                           &mo 2                                                                                                                                   &kp UP
-           &kp LEFT        &sk LGUI        &kp RIGHT                                                                                                  &kp LEFT     &kp SPACE        &kp RIGHT
-                           &mo 1                                                                                                                                   &kp DOWN
-            >;
-
-            sensor-bindings = <
-                        &change_tab 
-                        &inc_dec_kp SPACE SPACE 
-                        &inc_dec_kp SPACE SPACE 
-                        &inc_dec_kp C_VOL_UP C_VOL_DN
+&kp GRAVE  &kp Q           &kp W           &kp F        &kp P             &kp B                            &kp J            &kp L              &kp U        &kp Y            &kp SEMI         &kp DEL
+&kp TAB    &mt LEFT_GUI A  &mt LEFT_ALT R  &mt LCTRL S  &mt LEFT_SHIFT T  &kp G                            &kp M            &mt RIGHT_SHIFT N  &mt RCTRL E  &mt RIGHT_ALT I  &mt RIGHT_GUI O  &kp APOS
+&sk RALT   &kp Z           &kp X           &kp C        &kp D             &kp V        &none    &none      &kp K            &kp H              &kp COMMA    &kp DOT          &kp FSLH         &kp BSLH
+                                           &kp LG(TAB)  &kp ESC           &lt 1 SPACE  &kp TAB  &kp ENTER  &lt 2 BACKSPACE  &kp DEL            &none
+                           &mo 2                                                                                                                            &kp UP
+           &kp LEFT        &sk LGUI        &kp RIGHT                                                                                           &kp LEFT     &kp SPACE        &kp RIGHT
+                           &mo 1                                                                                                                            &kp DOWN
             >;
         };
 
@@ -138,18 +131,11 @@
             bindings = <
 &kp TILDE  &kp EXCL  &kp AT          &kp HASH  &kp DLLR  &kp PRCNT                  &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR   &kp RPAR   &kp MINUS
 &kp GRAVE  &kp N1    &kp N2          &kp N3    &kp N4    &kp N5                     &kp N6     &kp N7    &kp N8     &kp N9     &kp N0     &kp EQUAL
-&mo 3      &kp PLUS  &kp UNDERSCORE  &kp LT    &kp LBRC  &kp LBKT   &trans  &trans  &kp RBKT   &kp RBRC  &kp GT     &kp PIPE   &kp COLON  &kp DQT
+&mo 3      &kp PLUS  &kp UNDERSCORE  &kp LT    &kp LBRC  &kp LBKT   &none   &none   &kp RBKT   &kp RBRC  &kp GT     &kp PIPE   &kp COLON  &kp DQT
                                      &trans    &trans    &trans     &trans  &trans  &mo 3      &trans    &trans
                      &kp W                                                                                          &kp UP
            &kp A     &none           &kp D                                                               &kp LEFT   &kp SPACE  &kp RIGHT
                      &kp S                                                                                          &kp DOWN
-            >;
-
-            sensor-bindings = <
-                        &change_tab 
-                        &inc_dec_kp SPACE SPACE 
-                        &inc_dec_kp SPACE SPACE 
-                        &inc_dec_kp C_VOL_UP C_VOL_DN
             >;
         };
 
@@ -165,18 +151,11 @@
             bindings = <
 &trans      &trans        &trans        &kp K_FIND  &kp PRINTSCREEN  &trans                        &trans     &kp LC(LEFT)  &kp LA(DOWN)   &kp LA(UP)  &kp LC(RIGHT)  &trans
 &caps_word  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL   &kp LEFT_SHIFT   &kp ES_EQUAL                  &kp K_APP  &kp LEFT      &kp DOWN       &kp UP      &kp RIGHT      &trans
-&kp K_REDO  &kp K_UNDO    &kp K_CUT     &kp K_COPY  &kp K_REDO       &kp K_PASTE   &trans  &trans  &trans     &kp HOME      &kp PAGE_DOWN  &kp PG_UP   &kp END        &mo 3
+&kp K_REDO  &kp K_UNDO    &kp K_CUT     &kp K_COPY  &kp K_REDO       &kp K_PASTE   &none   &none   &trans     &kp HOME      &kp PAGE_DOWN  &kp PG_UP   &kp END        &mo 3
                                         &trans      &trans           &mo 3         &trans  &trans  &trans     &trans        &none
                           &kp W                                                                                                            &kp UP
             &kp A         &none         &kp D                                                                               &mkp MB4       &mkp MB3    &mkp MB5
                           &kp S                                                                                                            &kp DOWN
-            >;
-
-            sensor-bindings = <
-                        &change_tab 
-                        &inc_dec_kp SPACE SPACE 
-                        &inc_dec_kp SPACE SPACE 
-                        &inc_dec_kp C_VOL_UP C_VOL_DN
             >;
         };
 
@@ -192,18 +171,11 @@
             bindings = <
 &kp F11  &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                        &kp F6  &kp F7       &kp F8                &kp F9             &kp F10               &kp F12
 &trans   &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0                  &none   &none        &none                 &none              &none                 &none
-&trans   &none         &none         &none         &bootloader   &bt BT_CLR    &trans  &trans  &none   &bootloader  &none                 &none              &none                 &kp K_SLEEP
+&trans   &none         &none         &none         &bootloader   &bt BT_CLR    &none   &none   &none   &bootloader  &none                 &none              &none                 &kp K_SLEEP
                                      &trans        &trans        &trans        &trans  &trans  &trans  &trans       &trans
                        &kp UP                                                                                                             &kp C_VOL_UP
          &kp LEFT      &kp SPACE     &kp RIGHT                                                                      &kp C_BRIGHTNESS_DEC  &kp K_MUTE         &kp C_BRIGHTNESS_INC
                        &kp DOWN                                                                                                           &kp C_VOLUME_DOWN
-            >;
-
-            sensor-bindings = <
-                        &change_tab
-                        &inc_dec_kp SPACE SPACE 
-                        &inc_dec_kp SPACE SPACE 
-                        &inc_dec_kp C_VOL_UP C_VOL_DN
             >;
         };
 
@@ -224,13 +196,6 @@
                      &none                                                                                      &none
        &none         &none         &none                                                                 &none  &none  &none
                      &none                                                                                      &none
-            >;
-
-            sensor-bindings = <
-                        &inc_dec_kp SPACE SPACE 
-                        &inc_dec_kp SPACE SPACE 
-                        &inc_dec_kp SPACE SPACE 
-                        &inc_dec_kp SPACE SPACE 
             >;
         };
     };
