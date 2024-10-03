@@ -102,9 +102,9 @@
         default_layer {
             // --------------------------------------------------------------------------------------------------------------------------------------------------------------------
             // Default layer, pretty standar
-            //   |   ESC   |    Q    |    W    |    E    |    R    |    T    |                       |    Y    |    U    |    I    |    O    |    P    |  BSPC  |
-            //   |   TAB   |    A    |    S    |    D    |    F    |    G    |                       |    H    |    J    |    K    |    L    |    ;    |    '   |
-            //   |  RALT   |    Z    |    X    |    C    |    V    |    B    |  none   |   | Play/P  |    N    |    M    |    ,    |    .    |    -    |  ENTER |
+            //   |    `    |    Q    |    W    |    F    |    P    |    B    |                       |    J    |    L    |    U    |    Y    |    ;    |   DEL  |
+            //   |   TAB   |  GUI/A  |  ALT/R  | CTRL/S  | SHFT/T  |    G    |                       |    M    | SHFT/N  |  CTRL/E |  ALT/I  |  GUI/O  |    '   |
+            //   |  RALT   |    Z    |    X    |    C    |    D    |    V    |  none   |   | Play/P  |    K    |    H    |    ,    |    .    |    /    |    \   |
             //                                 |  WinTab | NumLayer|  BSPC   |  LCRTL  |   |  SHIFT  |  SPACE  |   SymLayer |   none  |
             // (5 way)     
 
