@@ -130,13 +130,13 @@
             // (5 way)     
 
             bindings = <
-&kp GRAVE  &kp Q            &kp W            &kp F         &kp P              &kp B                            &kp J            &kp L               &kp U         &kp Y             &kp SEMI          &kp RETURN
-&kp TAB    &rpi LEFT_GUI A  &rpi LEFT_ALT R  &rpi LCTRL S  &rpi LEFT_SHIFT T  &kp G                            &kp M            &rpi RIGHT_SHIFT N  &rpi RCTRL E  &rpi RIGHT_ALT I  &rpi RIGHT_GUI O  &kp APOS
-&kp RALT   &kp Z            &kp X            &kp C         &kp D              &kp V        &none    &none      &kp K            &kp H               &kp COMMA     &kp DOT           &kp FSLH          &FSLS_InvQues
-                                             &kp LG(TAB)   &kp ESC            &lt 1 SPACE  &kp TAB  &kp ENTER  &lt 2 BACKSPACE  &kp DEL             &none
-                            &mo 2                                                                                                                                 &kp UP
-           &kp LEFT         &kp LGUI         &kp RIGHT                                                                                              &kp LEFT      &kp RET           &kp RIGHT
-                            &mo 1                                                                                                                                 &kp DOWN
+&kp GRAVE  &kp Q            &kp W            &kp F         &kp P              &kp B                             &kp J            &kp L               &kp U         &kp Y             &kp SEMI          &kp RETURN
+&kp TAB    &rpi LEFT_GUI A  &rpi LEFT_ALT R  &rpi LCTRL S  &rpi LEFT_SHIFT T  &kp G                             &kp M            &rpi RIGHT_SHIFT N  &rpi RCTRL E  &rpi RIGHT_ALT I  &rpi RIGHT_GUI O  &kp APOS
+&kp LCTRL  &kp Z            &kp X            &kp C         &kp D              &kp V        &none    &none       &kp K            &kp H               &kp COMMA     &kp DOT           &kp FSLH          &FSLS_InvQues
+                                             &kp LG(TAB)   &kp ESC            &lt 1 SPACE  &kp TAB  &kp RETURN  &lt 2 BACKSPACE  &kp DEL             &none
+                            &mo 2                                                                                                                                  &kp UP
+           &kp LEFT         &kp LGUI         &kp RIGHT                                                                                               &kp LEFT      &kp RET           &kp RIGHT
+                            &mo 1                                                                                                                                  &kp DOWN
             >;
         };
 
