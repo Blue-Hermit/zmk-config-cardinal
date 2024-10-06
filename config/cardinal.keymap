@@ -105,9 +105,9 @@
             mods = <(MOD_LSFT)>;
         };
 
-        rpi: rpi {
+        rpiL: rpiL {
             compatible = "zmk,behavior-hold-tap";
-            label = "require_prior_idle";
+            label = "require_prior_idleL";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -115,6 +115,20 @@
             quick-tap-ms = <125>;
             require-prior-idle-ms = <125>;
             flavor = "tap-preferred";
+            hold-trigger-key-positions = <6 7 8 9 10 11 18 19 21 22 23 33 34 35 36 37 32 20 44 43 42 51 53 47 55>;
+        };
+
+        rpiR: rpiR {
+            compatible = "zmk,behavior-hold-tap";
+            label = "require_prior_idleR";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <125>;
+            require-prior-idle-ms = <125>;
+            flavor = "tap-preferred";
+            hold-trigger-key-positions = <0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 39 40 41 46 48 50 54>;
         };
     };
 
@@ -131,13 +145,13 @@
             // (5 way)     
 
             bindings = <
-&kp GRAVE  &kp Q            &kp W            &kp F         &kp P              &kp B                             &kp J            &kp L               &kp U         &kp Y             &kp SEMI          &kp RETURN
-&kp TAB    &rpi LEFT_GUI A  &rpi LEFT_ALT R  &rpi LCTRL S  &rpi LEFT_SHIFT T  &kp G                             &kp M            &rpi RIGHT_SHIFT N  &rpi RCTRL E  &rpi RIGHT_ALT I  &rpi RIGHT_GUI O  &kp APOS
-&kp LCTRL  &kp Z            &kp X            &kp C         &kp D              &kp V        &none    &none       &kp K            &kp H               &kp COMMA     &kp DOT           &kp FSLH          &FSLS_InvQues
-                                             &none         &kp ESC            &lt 1 SPACE  &kp TAB  &kp RETURN  &lt 2 BACKSPACE  &kp DEL             &none
-                            &lt 2 TAB                                                                                                                              &kp UP
-           &kp ESC          &caps_word       &kp RETURN                                                                                              &kp LEFT      &kp K_APP         &kp RIGHT
-                            &lt 1 SPACE                                                                                                                            &kp DOWN
+&kp GRAVE  &kp Q             &kp W             &kp F          &kp P               &kp B                             &kp J            &kp L                &kp U          &kp Y              &kp SEMI           &kp RETURN
+&kp TAB    &rpiL LEFT_GUI A  &rpiL LEFT_ALT R  &rpiL LCTRL S  &rpiL LEFT_SHIFT T  &kp G                             &kp M            &rpiR RIGHT_SHIFT N  &rpiR RCTRL E  &rpiR RIGHT_ALT I  &rpiR RIGHT_GUI O  &kp APOS
+&kp LCTRL  &kp Z             &kp X             &kp C          &kp D               &kp V        &none    &none       &kp K            &kp H                &kp COMMA      &kp DOT            &kp FSLH           &FSLS_InvQues
+                                               &none          &kp ESC             &lt 1 SPACE  &kp TAB  &kp RETURN  &lt 2 BACKSPACE  &kp DEL              &none
+                             &lt 2 TAB                                                                                                                                   &kp UP
+           &kp BACKSPACE     &kp ESC           &kp RETURN                                                                                                 &kp LEFT       &kp K_APP          &kp RIGHT
+                             &lt 1 SPACE                                                                                                                                 &kp DOWN
             >;
         };
 
