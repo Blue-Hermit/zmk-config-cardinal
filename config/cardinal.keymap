@@ -166,13 +166,13 @@
             // (5 way)     
 
             bindings = <
-&kp TILDE  &kp EXCL   &kp AT     &kp HASH  &kp DLLR  &kp PRCNT                          &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR   &kp RPAR   &kp PLUS
-&kp GRAVE  &kp N1     &kp N2     &kp N3    &kp N4    &kp N5                             &kp N6     &kp N7    &kp N8     &kp N9     &kp N0     &kp EQUAL
-&mo 3      &kp UNDER  &kp MINUS  &kp LT    &kp LBRC  &kp LBKT   &none   &none           &kp RBKT   &kp RBRC  &kp GT     &kp PIPE   &kp COLON  &kp DQT
+&kp TILDE  &kp EXCL   &kp AT     &kp HASH  &kp DLLR  &kp PRCNT                          &kp CARET  &kp AMPS  &kp ASTRK       &kp LPAR   &kp RPAR   &kp PLUS
+&kp GRAVE  &kp N1     &kp N2     &kp N3    &kp N4    &kp N5                             &kp N6     &kp N7    &kp N8          &kp N9     &kp N0     &kp EQUAL
+&mo 3      &kp UNDER  &kp MINUS  &kp LT    &kp LBRC  &kp LBKT   &none   &none           &kp RBKT   &kp RBRC  &kp GT          &kp PIPE   &kp COLON  &kp DQT
                                  &trans    &trans    &trans     &trans  &kp LEFT_SHIFT  &mo 3      &trans    &trans
-                      &trans                                                                                            &kp UP
-           &trans     &trans     &trans                                                                      &mkp MB4   &kp K_APP  &mkp MB5
-                      &trans                                                                                            &kp DOWN
+                      &trans                                                                                                 &kp UP
+           &trans     &trans     &trans                                                                      &kp LEFT_ARROW  &kp K_APP  &kp RIGHT
+                      &trans                                                                                                 &kp DOWN
             >;
         };
 
@@ -206,13 +206,13 @@
             // (5 way)     
 
             bindings = <
-&kp F11       &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                        &kp F6  &kp F7       &kp F8                &kp F9             &kp F10               &kp F12
-&out OUT_TOG  &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0                  &none   &none        &none                 &none              &none                 &none
-&studio_unlock        &soft_off     &none         &none         &bootloader   &bt BT_CLR    &none   &none   &none   &bootloader  &none                 &none              &soft_off             &kp K_SLEEP
-                                          &trans        &trans        &trans        &trans  &trans  &trans  &trans       &trans
-                            &kp UP                                                                                                             &kp C_VOL_UP
-              &kp LEFT      &kp K_SELECT  &kp RIGHT                                                                      &kp C_BRIGHTNESS_DEC  &kp K_MUTE         &kp C_BRIGHTNESS_INC
-                            &kp DOWN                                                                                                           &kp C_VOLUME_DOWN
+&kp F11         &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                        &kp F6  &kp F7       &kp F8                &kp F9             &kp F10               &kp F12
+&out OUT_TOG    &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0                  &none   &none        &none                 &none              &none                 &none
+&studio_unlock  &soft_off     &none         &none         &bootloader   &bt BT_CLR    &none   &none   &none   &bootloader  &none                 &none              &soft_off             &kp K_SLEEP
+                                            &trans        &trans        &trans        &trans  &trans  &trans  &trans       &trans
+                              &kp UP                                                                                                             &kp C_VOL_UP
+                &kp LEFT      &kp K_SELECT  &kp RIGHT                                                                      &kp C_BRIGHTNESS_DEC  &kp K_MUTE         &kp C_BRIGHTNESS_INC
+                              &kp DOWN                                                                                                           &kp C_VOLUME_DOWN
             >;
         };
 
