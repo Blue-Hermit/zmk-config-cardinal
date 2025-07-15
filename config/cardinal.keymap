@@ -146,10 +146,10 @@
             // (5 way)     
 
             bindings = <
-&kp GRAVE  &kp Q          &kp W             &kp F          &kp P               &kp B                             &kp J            &kp L                &kp U          &kp Y              &kp SEMI   &kp RETURN
+&kp GRAVE  &kp Q          &kp W             &kp F          &kp P               &kp B                             &kp J            &kp L                &kp U          &kp Y              &kp SEMI   &kp MINUS
 &kp TAB    &kp A          &rpiL LEFT_ALT R  &rpiL LCTRL S  &rpiL LEFT_SHIFT T  &kp G                             &kp M            &rpiR RIGHT_SHIFT N  &rpiR RCTRL E  &rpiR RIGHT_ALT I  &kp O      &kp APOS
 &kp LCTRL  &kp Z          &kp X             &kp C          &kp D               &kp V        &none    &none       &kp K            &kp H                &kp COMMA      &kp DOT            &kp FSLH   &FSLS_InvQues
-                                            &none          &mt LEFT_GUI ESC    &lt 1 SPACE  &kp TAB  &kp RETURN  &lt 2 BACKSPACE  &kp DEL              &none
+                                            &none          &mt LEFT_GUI ESC    &lt 1 SPACE  &kp TAB  &kp RETURN  &lt 2 BACKSPACE  &mt RIGHT_GUI DEL    &none
                           &lt 2 TAB                                                                                                                                   &kp UP
            &kp BACKSPACE  &kp ESC           &kp RETURN                                                                                                 &kp LEFT       &kp K_APP          &kp RIGHT
                           &lt 1 SPACE                                                                                                                                 &kp DOWN
