@@ -146,13 +146,13 @@
             // (5 way)     
 
             bindings = <
-&kp GRAVE  &kp Q          &kp W             &kp F          &kp P               &kp B                             &kp J            &kp L                &kp U          &kp Y              &kp SEMI   &kp MINUS
-&kp TAB    &kp A          &rpiL LEFT_ALT R  &rpiL LCTRL S  &rpiL LEFT_SHIFT T  &kp G                             &kp M            &rpiR RIGHT_SHIFT N  &rpiR RCTRL E  &rpiR RIGHT_ALT I  &kp O      &kp APOS
-&kp LCTRL  &kp Z          &kp X             &kp C          &kp D               &kp V        &none    &none       &kp K            &kp H                &kp COMMA      &kp DOT            &kp FSLH   &FSLS_InvQues
-                                            &none          &mt LEFT_GUI ESC    &lt 1 SPACE  &kp TAB  &kp RETURN  &lt 2 BACKSPACE  &mt RIGHT_GUI DEL    &none
-                          &lt 2 TAB                                                                                                                                   &kp UP
-           &kp BACKSPACE  &kp ESC           &kp RETURN                                                                                                 &kp LEFT       &kp K_APP          &kp RIGHT
-                          &lt 1 SPACE                                                                                                                                 &kp DOWN
+&kp GRAVE  &kp Q            &kp W             &kp F          &kp P               &kp B                             &kp J            &kp L                &kp U          &kp Y              &kp SEMI   &kp MINUS
+&kp TAB    &kp A            &rpiL LEFT_ALT R  &rpiL LCTRL S  &rpiL LEFT_SHIFT T  &kp G                             &kp M            &rpiR RIGHT_SHIFT N  &rpiR RCTRL E  &rpiR RIGHT_ALT I  &kp O      &kp APOS
+&kp LCTRL  &kp Z            &kp X             &kp C          &kp D               &kp V        &none    &none       &kp K            &kp H                &kp COMMA      &kp DOT            &kp FSLH   &FSLS_InvQues
+                                              &none          &mt LEFT_GUI ESC    &lt 1 SPACE  &kp TAB  &kp RETURN  &lt 2 BACKSPACE  &mt RIGHT_GUI DEL    &none
+                            &lt 2 TAB                                                                                                                                   &kp UP
+           &lt 2 BACKSPACE  &kp ESC           &lt 1 SPACE                                                                                                &kp LEFT       &kp K_APP          &kp RIGHT
+                            &kp ENTER                                                                                                                                   &kp DOWN
             >;
         };
 
@@ -206,13 +206,13 @@
             // (5 way)     
 
             bindings = <
-&kp F11         &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                        &kp F6  &kp F7       &kp F8                &kp F9             &kp F10               &kp F12
-&out OUT_TOG    &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0                  &none   &none        &none                 &none              &none                 &none
-&trans  &soft_off     &none         &none         &bootloader   &bt BT_CLR    &none   &none   &none   &bootloader  &none                 &none              &soft_off             &kp K_SLEEP
-                                            &trans        &trans        &trans        &trans  &trans  &trans  &trans       &trans
-                              &kp UP                                                                                                             &kp C_VOL_UP
-                &kp LEFT      &kp K_SELECT  &kp RIGHT                                                                      &kp C_BRIGHTNESS_DEC  &kp K_MUTE         &kp C_BRIGHTNESS_INC
-                              &kp DOWN                                                                                                           &kp C_VOLUME_DOWN
+&kp F11       &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                        &kp F6  &kp F7       &kp F8                &kp F9             &kp F10               &kp F12
+&out OUT_TOG  &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0                  &none   &none        &none                 &none              &none                 &none
+&trans        &soft_off     &none         &none         &bootloader   &bt BT_CLR    &none   &none   &none   &bootloader  &none                 &none              &soft_off             &kp K_SLEEP
+                                          &trans        &trans        &trans        &trans  &trans  &trans  &trans       &trans
+                            &kp UP                                                                                                             &kp C_VOL_UP
+              &kp LEFT      &kp K_SELECT  &kp RIGHT                                                                      &kp C_BRIGHTNESS_DEC  &kp K_MUTE         &kp C_BRIGHTNESS_INC
+                            &kp DOWN                                                                                                           &kp C_VOLUME_DOWN
             >;
         };
 
